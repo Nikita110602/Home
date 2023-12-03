@@ -6,7 +6,7 @@ function App() {
     <>
       <Navbar/>
       <div className='hero'>
-      <button>Welcome To Manage Wise</button>
+      <button className='main'>Welcome To Manage Wise</button>
         <h1>
         Empower your business with 
         </h1>
@@ -16,8 +16,10 @@ function App() {
         <div class="button-container">
         <button>Get Started</button>
         <button>Watch Demo</button>
-        <button>Made in Framer</button>
       </div>
+      </div>
+      <div className='floating'>
+      <button>Made in Framer</button>
       </div>
     </>
   );
